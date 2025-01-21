@@ -66,8 +66,8 @@ body {
   font-weight: var(--font-medium);
   color: var(--dark-color);
   line-height: 1.6;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
 }
 
 h1,
@@ -121,7 +121,7 @@ img {
 
 /*===== LAYOUT =====*/
 .bd-grid {
-  max-width: 1024px;
+  max-width: 1078px;
   display: grid;
   grid-template-columns: 100%;
   column-gap: 2rem;
